@@ -1,0 +1,166 @@
+{
+  "current_progressive_portfolio": {
+    "build_seconds": 2.054436,
+    "mean_latency_ms": 103.000782,
+    "sample_count": 200,
+    "hit_rate_at_10": 0.96,
+    "mrr": 0.58351,
+    "mttc": 3.075,
+    "efficiency": 0.7925,
+    "recommended_technical_score": 0.813553,
+    "reported_token_usage": {
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "total_tokens": 0
+    },
+    "scenario_metrics": {
+      "boundary": {
+        "sample_count": 10,
+        "hit_rate_at_10": 1.0,
+        "mrr": 0.789286,
+        "mttc": 3.9
+      },
+      "browsing": {
+        "sample_count": 80,
+        "hit_rate_at_10": 0.975,
+        "mrr": 0.562525,
+        "mttc": 2.8875
+      },
+      "buying": {
+        "sample_count": 80,
+        "hit_rate_at_10": 0.95,
+        "mrr": 0.542887,
+        "mttc": 2.675
+      },
+      "intent_override": {
+        "sample_count": 30,
+        "hit_rate_at_10": 0.933333,
+        "mrr": 0.679206,
+        "mttc": 4.366667
+      }
+    }
+  },
+  "facet_graph_entropy": {
+    "build_seconds": 6.680709,
+    "mean_latency_ms": 153.270309,
+    "sample_count": 200,
+    "hit_rate_at_10": 0.995,
+    "mrr": 0.608704,
+    "mttc": 1.875,
+    "efficiency": 0.9125,
+    "recommended_technical_score": 0.862611,
+    "reported_token_usage": {
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "total_tokens": 0
+    },
+    "scenario_metrics": {
+      "boundary": {
+        "sample_count": 10,
+        "hit_rate_at_10": 1.0,
+        "mrr": 0.471944,
+        "mttc": 2.1
+      },
+      "browsing": {
+        "sample_count": 80,
+        "hit_rate_at_10": 1.0,
+        "mrr": 0.529717,
+        "mttc": 1.4875
+      },
+      "buying": {
+        "sample_count": 80,
+        "hit_rate_at_10": 0.9875,
+        "mrr": 0.672932,
+        "mttc": 1.5125
+      },
+      "intent_override": {
+        "sample_count": 30,
+        "hit_rate_at_10": 1.0,
+        "mrr": 0.693651,
+        "mttc": 3.8
+      }
+    }
+  },
+  "facet_graph_other_channel": {
+    "build_seconds": 6.368177,
+    "mean_latency_ms": 147.96485,
+    "sample_count": 200,
+    "hit_rate_at_10": 0.98,
+    "mrr": 0.625726,
+    "mttc": 1.82,
+    "efficiency": 0.918,
+    "recommended_technical_score": 0.861318,
+    "reported_token_usage": {
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "total_tokens": 0
+    },
+    "scenario_metrics": {
+      "boundary": {
+        "sample_count": 10,
+        "hit_rate_at_10": 1.0,
+        "mrr": 0.601944,
+        "mttc": 1.5
+      },
+      "browsing": {
+        "sample_count": 80,
+        "hit_rate_at_10": 0.975,
+        "mrr": 0.536126,
+        "mttc": 1.45
+      },
+      "buying": {
+        "sample_count": 80,
+        "hit_rate_at_10": 0.975,
+        "mrr": 0.687827,
+        "mttc": 1.5125
+      },
+      "intent_override": {
+        "sample_count": 30,
+        "hit_rate_at_10": 1.0,
+        "mrr": 0.706984,
+        "mttc": 3.733333
+      }
+    }
+  },
+  "hybrid_exact_intersection": {
+    "build_seconds": 13.021307,
+    "mean_latency_ms": 339.938566,
+    "sample_count": 200,
+    "hit_rate_at_10": 0.965,
+    "mrr": 0.766375,
+    "mttc": 2.75,
+    "efficiency": 0.825,
+    "recommended_technical_score": 0.877413,
+    "reported_token_usage": {
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "total_tokens": 0
+    },
+    "scenario_metrics": {
+      "boundary": {
+        "sample_count": 10,
+        "hit_rate_at_10": 1.0,
+        "mrr": 0.95,
+        "mttc": 3.1
+      },
+      "browsing": {
+        "sample_count": 80,
+        "hit_rate_at_10": 0.975,
+        "mrr": 0.779147,
+        "mttc": 2.5625
+      },
+      "buying": {
+        "sample_count": 80,
+        "hit_rate_at_10": 0.9625,
+        "mrr": 0.757088,
+        "mttc": 2.2875
+      },
+      "intent_override": {
+        "sample_count": 30,
+        "hit_rate_at_10": 0.933333,
+        "mrr": 0.695873,
+        "mttc": 4.366667
+      }
+    }
+  }
+}

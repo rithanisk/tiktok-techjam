@@ -1,0 +1,51 @@
+{
+  "policy_mode": "competition",
+  "index_build_seconds": 4.27183,
+  "response_count": 543,
+  "latency_ms": {
+    "mean": 133.907833,
+    "p50": 116.616333,
+    "p95": 331.21875,
+    "p99": 524.282833,
+    "max": 799.452167
+  },
+  "metrics": {
+    "sample_count": 200,
+    "hit_rate_at_10": 0.965,
+    "mrr": 0.766375,
+    "mttc": 2.75,
+    "efficiency": 0.825,
+    "recommended_technical_score": 0.877413,
+    "reported_token_usage": {
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "total_tokens": 0
+    },
+    "scenario_metrics": {
+      "boundary": {
+        "sample_count": 10,
+        "hit_rate_at_10": 1.0,
+        "mrr": 0.95,
+        "mttc": 3.1
+      },
+      "browsing": {
+        "sample_count": 80,
+        "hit_rate_at_10": 0.975,
+        "mrr": 0.779147,
+        "mttc": 2.5625
+      },
+      "buying": {
+        "sample_count": 80,
+        "hit_rate_at_10": 0.9625,
+        "mrr": 0.757088,
+        "mttc": 2.2875
+      },
+      "intent_override": {
+        "sample_count": 30,
+        "hit_rate_at_10": 0.933333,
+        "mrr": 0.695873,
+        "mttc": 4.366667
+      }
+    }
+  }
+}
